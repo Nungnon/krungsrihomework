@@ -17,7 +17,6 @@ Get Csv Testing
         Click Login
         Verify alert Products
 
-
         Click Add
         Verify Cart
         Click Cart
@@ -25,15 +24,13 @@ Get Csv Testing
         Verify alert Your Products
         Verify alert Products Price
 
-
         Click Checkout
         Verify alert Checkout
 
-
         # Adjust these lines if necessary
-        Input firstname    ${row}[Firstname]  # These keys should exist in your CSV or adjust accordingly
-        Input lastname    ${row}[Lastname]    # Same here
-        Input Code    [Code]        # And here
+        Input firstname    ${row}[Firstname]  
+        Input lastname    ${row}[Lastname]    
+        Input Code    [Code]        
         Click Continue
         Verify alert Overview
         Verify alert Your Products
